@@ -39,6 +39,9 @@ author: wty 2019.9.9<hr/>
     有一个长度为零，返回另一个长度；
     如果长度相等不为零，返回第一个不同字符的差，如都相同，返回长度差。
 #### hashCode(): -> h = 31 * h + val[i];
+#### indexOf(int):
+    参数是字符所对应的int值，如a->97；返回索引位置，没有返回-1.
+
 
 ### 3) AbstractStringBuilder 1
     主要方法有：
@@ -119,7 +122,7 @@ author: wty 2019.9.9<hr/>
 ## 5.java.lang.reflect
     1) Field 2
     2) Method 2
-6.java.lang.annotatin
+## 6.java.lang.annotatin
     1) Annotation 3
     2) Target 3
     3) Inherited 3
@@ -128,18 +131,18 @@ author: wty 2019.9.9<hr/>
     6) ElementType 4
     7) Native 4
     8) Repeatable 4
-7.java.util.concurrent.locks
+## 7.java.util.concurrent.locks
     1) Lock 2
     2) Condition 2
     3) ReentrantLock 2
     4) ReentrantReadWriteLock 2
-8.java.io
+## 8.java.io
     1) File 3
     2) InputStream   3
     3) OutputStream  3
     4) Reader  4
     5) Writer  4
-9.java.nio
+## 9.java.nio
     1) Buffer 3
     2) ByteBuffer 4
     3) CharBuffer 4
@@ -148,14 +151,14 @@ author: wty 2019.9.9<hr/>
     6) IntBuffer 4
     7) LongBuffer 4
     8) ShortBuffer 4
-10.java.sql
+## 10.java.sql
     1) Connection 3
     2) Driver 3
     3) DriverManager 3
     4) JDBCType 3
     5) ResultSet 4
     6) Statement 4
-11.java.net
+## 11.java.net
     1) Socket 3
     2) ServerSocket 3
     3) URI 4
